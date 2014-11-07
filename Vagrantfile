@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu1404"
+  config.vm.box = "box-cutter/ubuntu1404"
 
   config.vm.define :spooler do |spooler|
     spooler.vm.hostname = 'spooler'
